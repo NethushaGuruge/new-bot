@@ -12,6 +12,7 @@ module.exports = {
         .addField(`${config.PREFIX}status`, 'See the status of the server')
         .addField(`${config.PREFIX}playerlist`, 'See who is connected to the server')
         .addField(`${config.PREFIX}suggest`, 'Make a suggestion to the server')
+        .addField(`${config.PREFIX}ip`, 'Sever join link')
         .setTimestamp()
 
         const fun = new Discord.MessageEmbed()
