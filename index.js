@@ -6,16 +6,9 @@ const BOT_TOKEN = config.BOT_TOKEN;
 const PREFIX = config.PREFIX;
 client.commands = new Discord.Collection();
 const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
-let PlayerCount = require('./server/players');
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-    
-    setInterval(() => {
-      PlayerCount.getPlayerCount().then((result) => {
-          client.user.setActivity(`with Minicity Roleplay ${result.data.length} players`,{ type: 'PLAYING' });
-      })
-    }, 10000);
 });
 
 client.login(BOT_TOKEN);
