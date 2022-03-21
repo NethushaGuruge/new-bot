@@ -9,6 +9,10 @@ const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith(
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
+  
+      setInterval(() => {
+          client.user.setActivity(`with Robotics and FivemSinhala`,{ type: 'PLAYING' });
+    }, 10000);
 });
 
 client.login(BOT_TOKEN);
