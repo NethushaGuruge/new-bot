@@ -1,13 +1,13 @@
 {
-    "BOT_TOKEN": "ODcyNjYyNjEyMzE4NDk4ODQ2.YQtIZA.TMZMNQBol_PqKUhj3hhpYeuEVbc",
-    "SERVER_URL": "",
-    "SERVER_LOGO": "",
-    "SERVER_NAME": "NethushaGuru",
+    "BOT_TOKEN": "ODk5MjkyMjQwMTcyNzA3ODkw.YWwpKg.eo01fKRpLQe5WIlnNb0OO5DfvNA",
+    "SERVER_URL": "152.228.150.244:30000",
+    "SERVER_LOGO": "https://i.postimg.cc/26SzTJXN/Whats-App-Image-2022-04-24-at-1-00-14-PM.jpg",
+    "SERVER_NAME": "Ceylon Mini City",
     "PREFIX": "+",
     "CHANNELS_ID":{
-        "SUGGESTIONS":"874865542907953213",
-        "MEMES":"874865542907953213",
-        "ANIMALS":"874865542907953213"
+        "SUGGESTIONS":"877894274140762112",
+        "MEMES":"877894274140762112",
+        "ANIMALS":"877894274140762112"
     }
     
 }
